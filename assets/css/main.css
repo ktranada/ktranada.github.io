@@ -1752,7 +1752,7 @@
 		}
 
     header.second .skills img {
-      height: 6vh;
+      height: 4vh;
     }
 
 
@@ -3717,6 +3717,18 @@ font-size: 40px;
 /* CTA */
   #cta .inner i:hover {
     cursor: pointer;
+  }
+  #cta .inner header {
+    margin: 0 auto;
+    margin-left: 30%;
+  }
+
+  #cta .inner header h2 {
+    margin-left: -30px;
+  }
+
+  #cta .inner header i {
+    margin-left: 30px;
   }
 
 	#cta .inner {
