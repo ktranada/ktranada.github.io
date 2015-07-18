@@ -1,4 +1,37 @@
 @import url(font-awesome.min.css);
+
+@font-face {
+       font-family: "hn-thin";
+       src: url('https://dl.dropboxusercontent.com/s/hiyy011wa9c7f7i/HelveticaNeueCyr-Thin.otf') format("opentype");
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face {
+			font-family: "hn-medium";
+			src: url('https://dl.dropboxusercontent.com/s/bez6n1sf4n705fh/HelveticaNeueCyr-Medium.otf') format("opentype");
+			font-weight: normal;
+			font-style: normal;
+}
+@font-face {
+       font-family: "hn-ultra";
+       src: url('https://dl.dropboxusercontent.com/s/8d8sst6cyozetcw/HelveticaNeueCyr-UltraLight.otf') format("opentype");
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face {
+       font-family: "HN-Bold";
+       src: url('https://dl.dropboxusercontent.com/s/ly9gkrm4n392fpj/HelveticaNeueCyr-Bold.otf') format("opentype");
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {
+       font-family: "hn-light";
+       src: url('https://dl.dropboxusercontent.com/s/q0l5zdddeg5gclu/HelveticaNeueCyr-Light.otf') format("opentype");
+       font-weight: normal;
+       font-style: normal;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
