@@ -1753,7 +1753,7 @@ video {
 		}
 
     header.second .skills img {
-      height: 6vh;
+      height: 8vh;
     }
 
 
@@ -2649,7 +2649,7 @@ video {
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0.7);
 		}
 
 		.spotlight:nth-child(3) {
@@ -3782,6 +3782,7 @@ font-size: 40px;
 
 			#cta .inner {
 				display: block;
+          margin-left: 28px;
 				/*text-align: center;*/
 			}
       /*#cta .inner h2 {
@@ -3980,7 +3981,7 @@ font-size: 40px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
-	  background-image: url("https://dl.dropboxusercontent.com/s/hshkj91d34j3zxt/back.jpg");
+	  background-image: url("images/back.jpg");
 	}
 
 	body.landing #footer {
