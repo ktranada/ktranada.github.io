@@ -2766,11 +2766,11 @@ video {
 		}
 
 		.wrapper.style1 {
-			background-color: rgba(0, 121, 107, .95);
+			background-color: rgba(0,117,117,.95);
 			color: #c7ebe8;
 		}
     .wrapper.style6 {
-      background-color: rgba(0, 117, 117, .95);
+      background-color: rgba(0,0,0, .7);
     }
 
 			.wrapper.style1 strong, .wrapper.style1 b {
