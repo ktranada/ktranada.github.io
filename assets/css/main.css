@@ -2766,11 +2766,11 @@ video {
 		}
 
 		.wrapper.style1 {
-			background-color: rgba(0,117,117,.95);
+			background-color: rgba(0,117,117,.9);
 			color: #c7ebe8;
 		}
     .wrapper.style6 {
-      background-color: rgba(0,0,0, .7);
+      background-color: rgba(66, 66, 66,.7);
     }
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -4006,15 +4006,30 @@ font-size: 40px;
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");*/
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
     /*background-image: url("https://dl.dropboxusercontent.com/s/hshkj91d34j3zxt/back.jpg");*/
 	}
+
+  @media screen and (max-width: 400px) {
+    #contact .inner header h2 {
+      font-size: 100%;
+    }
+  }
+  @media screen and (max-width: 415px) {
+
+    body.is-mobile.landing .wrapper.style4 {
+        margin-left: -68px;
+      /*background-image: url("https://dl.dropboxusercontent.com/s/hshkj91d34j3zxt/back.jpg");*/
+    }
+    #contact .inner header h2 {
+      font-size: 15px;
+    }
+    #contact .inner header i {
+  margin-left: -10px;
+}
+  }
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
