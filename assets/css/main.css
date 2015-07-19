@@ -2766,11 +2766,11 @@ video {
 		}
 
 		.wrapper.style1 {
-			background-color: rgba(0,117,117,.9);
+			background-color: rgba(41, 128, 185,.95);
 			color: #c7ebe8;
 		}
     .wrapper.style6 {
-      background-color: rgba(66, 66, 66,.7);
+      background-color: rgba(72, 100, 124,.9);
     }
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -4003,6 +4003,9 @@ font-size: 40px;
 	body.is-mobile.landing #page-wrapper {
 		/*background: none;*/
 	}
+  #contact .inner header a {
+    font-family: "hn-ultra";
+  }
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
