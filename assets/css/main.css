@@ -3507,7 +3507,38 @@ video {
 			}
 
 /* Banner */
+.inner h2 {
+  margin-bottom: 50px;
+}
 
+.quick-links {
+  margin-top: 50px;
+}
+
+.quick-links a {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  font-family: "hn-ultra";
+  letter-spacing: 3px;
+  -webkit-transition: all 1s;
+}
+
+.quick-links a:after {
+  margin-top: -30px;
+}
+
+.quick-links a:hover {
+  font-size: 23px;
+  -webkit-transition: all 1s;
+}
+
+span.anchor {
+  display: block;
+  height: 48px; /*same height as header*/
+  margin-top: -48px; /*same height as header*/
+  visibility: hidden;
+}
 	#banner {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3590,10 +3621,10 @@ font-size: 40px;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
 			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 3.5s;
-			-webkit-transition-delay: 3.5s;
-			-ms-transition-delay: 3.5s;
-			transition-delay: 3.5s;
+			-moz-transition-delay: .7s;
+			-webkit-transition-delay: .7s;
+			-ms-transition-delay: .7s;
+			transition-delay: .7s;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3640,10 +3671,10 @@ font-size: 40px;
 			-webkit-transition: opacity 3s ease-in-out;
 			-ms-transition: opacity 3s ease-in-out;
 			transition: opacity 3s ease-in-out;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition-delay: .2s;
+			-webkit-transition-delay: .2s;
+			-ms-transition-delay: .2s;
+			transition-delay: .2s;
 			content: '';
 			background: #2e3842;
 			display: block;
@@ -3701,24 +3732,24 @@ font-size: 40px;
 		opacity: 1;
 	}
 
-/* CTA */
-  #cta .inner i:hover {
+/* contact */
+  #contact .inner i:hover {
     cursor: pointer;
   }
-  #cta .inner header {
+  #contact .inner header {
     margin: 0 auto;
     margin-left: 30%;
   }
 
-  #cta .inner header h2 {
+  #contact .inner header h2 {
     margin-left: -30px;
   }
 
-  #cta .inner header i {
+  #contact .inner header i {
     margin-left: 30px;
   }
 
-	#cta .inner {
+	#contact .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3726,7 +3757,7 @@ font-size: 40px;
 		max-width: 45em;
 	}
 
-		#cta .inner header {
+		#contact .inner header {
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
@@ -3735,12 +3766,12 @@ font-size: 40px;
 			width: 70%;
 		}
 
-			#cta .inner header p {
+			#contact .inner header p {
 				color: inherit;
         font-family: "hn-ultra";
 			}
 
-		#cta .inner .actions {
+		#contact .inner .actions {
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -3748,15 +3779,15 @@ font-size: 40px;
 			width: 30%;
 		}
 /*
-    #cta .inner header {
+    #contact .inner header {
       margin-left: 198px;
     }*/
 
-    /*#cta .inner header i {
+    /*#contact .inner header i {
       margin-left: 67px;
     }
 
-    #cta .inner h2 {
+    #contact .inner h2 {
       margin-left: 20px;
     }*/
 
@@ -3766,24 +3797,24 @@ font-size: 40px;
 
 		@media screen and (max-width: 980px) {
 
-			#cta .inner {
+			#contact .inner {
 				display: block;
           margin-left: 28px;
 				/*text-align: center;*/
 			}
-      /*#cta .inner h2 {
+      /*#contact .inner h2 {
         margin-left: 0;
       }
-      #cta .inner header i {
+      #contact .inner header i {
         margin-left: 60px;
       }
 
-				#cta .inner header {
+				#contact .inner header {
 					padding-right: 0;
 					width: 100%;
 				}*/
 
-				#cta .inner .actions {
+				#contact .inner .actions {
 					margin-left: auto;
 					margin-right: auto;
 					max-width: 20em;
@@ -3794,11 +3825,11 @@ font-size: 40px;
 
 		@media screen and (max-width: 736px) {
 
-			#cta .inner .actions {
+			#contact .inner .actions {
 				max-width: none;
 			}
 
-      #cta .inner header i {
+      #contact .inner header i {
         margin-left: -1px;
       }
 
