@@ -1,16 +1,9 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 @font-face {
        font-family: "hn-thin";
        src: url('https://dl.dropboxusercontent.com/s/hiyy011wa9c7f7i/HelveticaNeueCyr-Thin.otf') format("opentype");
        font-weight: normal;
        font-style: normal;
-}
-@font-face {
-			font-family: "hn-medium";
-			src: url('https://dl.dropboxusercontent.com/s/bez6n1sf4n705fh/HelveticaNeueCyr-Medium.otf') format("opentype");
-			font-weight: normal;
-			font-style: normal;
 }
 @font-face {
        font-family: "hn-ultra";
@@ -21,13 +14,6 @@
 @font-face {
        font-family: "HN-Bold";
        src: url('https://dl.dropboxusercontent.com/s/ly9gkrm4n392fpj/HelveticaNeueCyr-Bold.otf') format("opentype");
-       font-weight: normal;
-       font-style: normal;
-}
-
-@font-face {
-       font-family: "hn-light";
-       src: url('https://dl.dropboxusercontent.com/s/q0l5zdddeg5gclu/HelveticaNeueCyr-Light.otf') format("opentype");
        font-weight: normal;
        font-style: normal;
 }
@@ -3981,7 +3967,7 @@ font-size: 40px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
-	  background-image: url("images/back.jpg");
+	  background-image: url("images/back_rensog.jpg");
 	}
 
 	body.landing #footer {
