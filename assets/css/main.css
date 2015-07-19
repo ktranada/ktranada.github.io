@@ -2770,7 +2770,7 @@ video {
 			color: #c7ebe8;
 		}
     .wrapper.style6 {
-      background-color: rgba(117, 117, 117, .95);
+      background-color: rgba(0, 117, 117, .95);
     }
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3533,12 +3533,7 @@ video {
   -webkit-transition: all 1s;
 }
 
-span.anchor {
-  display: block;
-  height: 48px; /*same height as header*/
-  margin-top: -48px; /*same height as header*/
-  visibility: hidden;
-}
+
 	#banner {
 		display: -moz-flex;
 		display: -webkit-flex;
