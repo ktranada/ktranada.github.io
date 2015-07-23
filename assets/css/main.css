@@ -21,6 +21,10 @@
 video {
   width: 100%;
 }
+
+video.been-jumping {
+  height: 100%;
+}
 /*
 	Spectral by HTML5 UP
 	html5up.net | @n33co
@@ -2632,14 +2636,17 @@ video {
 
 		.spotlight:nth-child(1) {
       background-color: rgba(0, 0, 0, .7);
+      padding-top: 42px;
 		}
 
 		.spotlight:nth-child(2) {
 			background-color: rgba(0, 0, 0, 0.7);
+      padding-top: 42px;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 42px;
 		}
 
 		.spotlight:nth-child(4) {
@@ -2766,7 +2773,8 @@ video {
 		}
 
 		.wrapper.style1 {
-			background-color: rgba(41, 128, 185,.95);
+			/*background-color: rgba(41, 128, 185,.95);*/
+      background-color: rgba(22, 160, 133,.95);
 			color: #c7ebe8;
 		}
     .wrapper.style6 {
