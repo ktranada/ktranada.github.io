@@ -2635,17 +2635,17 @@ video.been-jumping {
 		}
 
 		.spotlight:nth-child(1) {
-      background-color: rgba(0, 0, 0, .7);
+      background-color: rgba(0, 0, 0, .4);
       padding-top: 42px;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.7);
+			background-color: rgba(0, 0, 0, 0.4);
       padding-top: 42px;
 		}
 
 		.spotlight:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
   padding-top: 42px;
 		}
 
@@ -3094,7 +3094,7 @@ video.been-jumping {
 			}
 
 		.wrapper.style4 {
-			background-color: rgba(0,0,0,.7);
+			background-color: rgba(0,0,0,.4);
 		}
 
 		.wrapper.style5 {
@@ -3516,7 +3516,7 @@ video.been-jumping {
 
 /* Banner */
 .inner h2 {
-  margin-bottom: 50px;
+  margin-bottom: 180px;
 }
 
 .quick-links {
@@ -3561,7 +3561,7 @@ video.been-jumping {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		background-color: rgba(0,0,0,.7);
+		background-color: rgba(0,0,0,.4);
 	}
 
 		#banner h2 {
@@ -4001,7 +4001,7 @@ font-size: 40px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
-	  background-image: url("images/back_rensog.jpg");
+	  background-image: url("https://res.cloudinary.com/mycut/image/upload/c_scale,w_1652/v1438544807/dave2_dpqu5j.jpg");
 	}
 
 	body.landing #footer {
