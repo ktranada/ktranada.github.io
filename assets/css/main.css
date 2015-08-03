@@ -1420,7 +1420,7 @@ video.been-jumping {
 	}
 
 	body {
-		background: #2e3842;
+		background: #1D242A;;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3746,6 +3746,7 @@ font-size: 40px;
 
   #contact .inner header h2 {
     margin-left: -30px;
+    margin-bottom: 20px;
   }
 
   #contact .inner header i {
@@ -3758,6 +3759,8 @@ font-size: 40px;
 		display: -ms-flex;
 		display: flex;
 		max-width: 45em;
+    margin-bottom: 90px;
+    margin-top: 60px;
 	}
 
 		#contact .inner header {
@@ -3913,7 +3916,8 @@ font-size: 40px;
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		/*padding: 6em 0 4em 0 ;*/
+		padding: 4em 0 1em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
