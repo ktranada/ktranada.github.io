@@ -2635,17 +2635,17 @@ video.been-jumping {
 		}
 
 		.spotlight:nth-child(1) {
-      background-color: rgba(0, 0, 0, .4);
+      background-color: rgba(0, 0, 0, .7);
       padding-top: 42px;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.4);
+			background-color: rgba(0, 0, 0, 0.7);
       padding-top: 42px;
 		}
 
 		.spotlight:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   padding-top: 42px;
 		}
 
@@ -3094,8 +3094,7 @@ video.been-jumping {
 			}
 
 		.wrapper.style4 {
-			background-color: rgba(0,0,0,.4);
-		}
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, transparent 106%);		}
 
 		.wrapper.style5 {
 			background-color: #ffffff;
