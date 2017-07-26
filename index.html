@@ -5,11 +5,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 		<link rel="icon" type="image/png" href="assets/logo2.png">
 	</head>
 	<body>
-			<div class="content">
+			<div id="page" class="content">
 				<section class="content__masthead">
 					<div class="kevin__image">
 						<div></div>
@@ -21,105 +22,126 @@
 				</section>
 
 
-				<div class="below-the-fold">
-					<section class="content__about">
-						<div class="wrapper">
-							<header class="section__header">
-								<div>ABOUT</div>
-							</header>
-							<div class="section__body">
-								<p>
-									In January 2015, I left my job so I could teach myself software development full time.
-								</p>
-								<p>
-									I value design and it's my <span>passion</span> to sweat the details.
-								</p>
-							</div>
-						</div>
-					</section>
-
-					<section class="content__tech">
-						<div class="wrapper">
-							<header class="section__header">
-								<div>TECHNOLOGY</div>
-							</header>
-							<div class="section__body">
-								<div>
-									<ul>
-										<li>Sketch</li>
-										<li>HTML5 + CSS3 (SCSS)</li>
-										<li>ES5/ES6 + jQuery</li>
-										<li>React + Redux + Webpack</li>
-									</ul>
-									<ul>
-										<li>PostgreSQL</li>
-										<li>Ruby + Rails</li>
-										<li>C# + .NET</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</section>
-
-					<section class="content__projects">
-						<div class="projects__wrapper">
-							<header class="projects__header">PROJECTS</header>
-							<div class="projects__index">
-								<div class="projects__index-item">
-									<header class="project__title">
-										<div>
-											Noted
-										</div>
+			<div class="below-the-fold">
+					<div class="content__background">
+						<div class="content__info">
+							<section class="content__about">
+								<div class="wrapper">
+									<header class="section__header">
+										<div>ABOUT</div>
 									</header>
-									<div class="project__info">
-										<div class="project__video">
-											<div class="device-mockup macbook portrait black">
-												<div class="device">
-													<div class="screen">
-														<video autoplay loop data-video="noted" src="assets/noted-720.mp4"></video>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="project__description">
-												A modern, effective application for improving workflow and collaborating with others.
-										</div>
-										<div class="project__create-date">
-											2017
-										</div>
-										<div class="project__links">
-											<a href="https://www.noted.pw">Live-site</a> <span>/</span>
-											<a href="https://github.com/ktranada/noted_react">Github</a>
+									<div class="section__body">
+										<p>
+											In January 2015, I left my job so I could teach myself software development full time.
+										</p>
+										<p>
+											I value design and it's my <span>passion</span> to sweat the details.
+										</p>
+									</div>
+								</div>
+							</section>
+
+							<section class="content__tech">
+								<div class="wrapper">
+									<header class="section__header">
+										<div>TECHNOLOGY</div>
+									</header>
+									<div class="section__body">
+										<div>
+											<ul>
+												<li>Sketch</li>
+												<li>HTML5 + CSS3 (SCSS)</li>
+												<li>ES5/ES6 + jQuery</li>
+												<li>React + Redux + Webpack</li>
+											</ul>
+											<ul>
+												<li>PostgreSQL</li>
+												<li>Ruby + Rails</li>
+												<li>C# + .NET</li>
+											</ul>
 										</div>
 									</div>
 								</div>
+							</section>
+						</div>
 
-								<div class="projects__index-item">
-									<header class="project__title">
-										<div>
-											MYCUT
-										</div>
-									</header>
-									<div class="project__info">
-										<div class="project__video">
-											<div class="device-mockup macbook portrait black">
-												<div class="device">
-													<div class="screen">
-														<video autoplay loop data-video="noted" src="assets/mycut.mp4"></video>
-													</div>
-												</div>
+						<section class="content__projects">
+							<div class="projects__wrapper">
+								<header class="projects__header">PROJECTS</header>
+								<div class="projects__index">
+									<div class="projects__index-item">
+										<header class="project__title">
+											<div>
+												Noted
+											</div>
+										</header>
+										<div class="project__info">
+											<div class="project__logo">
+												<img src="assets/images/projects/noted.png"/>
+											</div>
+											<div class="project__description">
+													An efficient, modern application for improving workflow and collaborating with others.
+											</div>
+											<div class="project__create-date">
+												2017
+											</div>
+											<div class="project__links">
+												<a target="_blank" href="https://www.noted.pw">Live-site</a> <span>/</span>
+												<a target="_blank" href="https://github.com/ktranada/noted_react">Github</a>
 											</div>
 										</div>
-										<div class="project__description">
-											A community for users to find, review, and rate hairstylists anywhere in the world.
+									</div>
+
+									<div class="projects__index-item">
+										<header class="project__title">
+											<div>
+												MYCUT
+											</div>
+										</header>
+										<div class="project__info">
+											<div class="project__logo">
+												<img src="assets/images/projects/mycut.png"/>
+											</div>
+											<div class="project__description">
+												A community for users to find, review, and rate hairstylists anywhere in the world.
+											</div>
+											<div class="project__create-date">
+												2015
+											</div>
+											<div class="project__links">
+												<a target="_blank" href="http://www.mycut.space/welcome">Live-site</a> <span>/</span>
+												<a target="_blank" href="https://github.com/ktranada/myCut">Github</a>
+											</div>
 										</div>
-										<div class="project__create-date">
-											2015
-										</div>
-										<div class="project__links">
-											<a href="http://www.mycut.space/welcome">Live-site</a> <span>/</span>
-											<a href="https://github.com/ktranada/myCut">Github</a>
-										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+
+					<section class="content__contact">
+						<div class="wrapper">
+							<div class="contact__left">
+								<div></div>
+							</div>
+							<div class="contact__right">
+								<header>
+									<div>Contact</div>
+								</header>
+								<div class="contact__items">
+									<p>Let's create something awesome together.</p>
+									<div class="contact__item">
+										<p>PHONE</p>
+										<a href="tel:+14082093902">1 (408) 209 3902</a>
+									</div>
+									<div class="contact__item">
+										<p>E-MAIL</p>
+										<a href="mailto:trank.kevin@gmail.com">trank.kevin@gmail.com</a>
+									</div>
+									<div class="contact__social-media">
+										<a target="_blank" href="https://github.com/ktranada" class="icon fa-github-alt"></a>
+										<a target="_blank" href="https://www.linkedin.com/pub/kevin-tran/8b/43/bb0" class="icon fa-linkedin-square"></a>
+										<!-- <a target="_blank" href="mailto:trank.kevin@gmail.com" class="icon fa-envelope-o"></a> -->
 									</div>
 								</div>
 							</div>
