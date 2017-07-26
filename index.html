@@ -9,15 +9,16 @@
 		<meta property="og:url" content="http://kevintran.io" />
 
 		<title>Kevin Tran | Software Engineer | Oakland, CA</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Poppins" rel="stylesheet">
 		<link rel="icon" type="image/png" href="assets/logo2.png">
 	</head>
-	<body>
+	<body class="loading">
 			<div id="page" class="content">
 				<div class="loader">
-
+					<div class="panel"></div>
+					<div class="panel"v></div>
 				</div>
 				<section class="content__masthead">
 					<div class="kevin__image">
@@ -176,6 +177,18 @@
 					</section>
 				</div>
 			</div>
-			<!-- <script src="assets/js/main.js"></script> -->
+
+			<script>
+				window.addEventListener('load' , function(e) {
+					var loader = document.getElementsByClassName('loader')[0];
+					setTimeout(function() {
+						loader.classList.add('hidden');
+						setTimeout(function() {
+							loader.classList.add('stopped');
+							document.getElementsByTagName('body')[0].classList.remove('loading');
+						}, 300);
+					}, 1500)
+				})
+			</script>
 	</body>
 </html>
