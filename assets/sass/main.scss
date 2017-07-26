@@ -14,7 +14,9 @@ $header-letter-spacing: 3px;
 }
 
 
-
+html {
+  overflow-y: scroll;
+}
 html, body {
   height: 100%;
   width: 100%;
@@ -42,6 +44,9 @@ letter-spacing: .8px;
 body {
   &.loading {
     overflow: hidden;
+    .content {
+      overflow-y: hidden;
+    }
   }
   &::-webkit-scrollbar-track
   {
@@ -59,10 +64,6 @@ body {
   {
     background-color: $snow-blue;
   }
-}
-
-.page {
-  height: 100%;
 }
 
 @-webkit-keyframes grow {
@@ -109,6 +110,10 @@ body {
     top: 0;
     bottom: 100%;
   }
+}
+
+.content {
+  position: fixed;
 }
 
 .loader {
@@ -647,6 +652,8 @@ body {
 @media (min-width: 400px) {
 }
 
+@media only screen and (max-width: 525px) {
+}
 /* Larger than phablet */
 @media (min-width: 525px) {
   .content {

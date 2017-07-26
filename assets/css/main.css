@@ -752,12 +752,19 @@ template {
   left: 9.36195587%;
   right: 9.36195587%; }
 
+html {
+  overflow-y: scroll; }
+
 html, body {
   height: 100%;
   width: 100%;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   background: rgba(0, 0, 0, 0.9); }
+
+::-moz-selection {
+  background: papayawhip;
+  color: black; }
 
 ::selection {
   background: papayawhip;
@@ -769,6 +776,8 @@ p {
 
 body.loading {
   overflow: hidden; }
+  body.loading .content {
+    overflow-y: hidden; }
 body::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.9);
   border: none; }
@@ -777,9 +786,6 @@ body::-webkit-scrollbar {
   background-color: #d4dee4; }
 body::-webkit-scrollbar-thumb {
   background-color: #d4dee4; }
-
-.page {
-  height: 100%; }
 
 @-webkit-keyframes grow {
   0% {
@@ -813,6 +819,9 @@ body::-webkit-scrollbar-thumb {
   100% {
     top: 0;
     bottom: 100%; } }
+.content {
+  position: fixed; }
+
 .loader {
   position: fixed;
   width: 100%;
@@ -848,8 +857,11 @@ body::-webkit-scrollbar-thumb {
     left: 50%;
     top: 50%;
     opacity: 1;
+    -webkit-transition: opacity .5s;
     transition: opacity .5s;
+    -webkit-transform: rotate(270deg) translate(-50%, -50%);
     transform: rotate(270deg) translate(-50%, -50%);
+    -webkit-transform-origin: -4%;
     transform-origin: -4%; }
   .loader:not(.stopped)::after {
     content: "";
