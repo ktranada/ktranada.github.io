@@ -15,6 +15,7 @@
 		<link rel="icon" type="image/png" href="assets/logo2.png">
 	</head>
 	<body class="loading">
+		<div class="scroller" data-progress="0"></div>
 			<div class="content">
 				<div class="loader">
 					<div class="panel"></div>
@@ -180,15 +181,25 @@
 
 			<script>
 				window.addEventListener('load' , function(e) {
+					var body = document.getElementsByTagName('body')[0];
 					var loader = document.getElementsByClassName('loader')[0];
-					setTimeout(function() {
-						loader.classList.add('hidden');
+					if (loader) {
 						setTimeout(function() {
-							loader.classList.add('stopped');
-							document.getElementsByTagName('body')[0].classList.remove('loading');
-						}, 300);
-					}, 1500)
-				})
+							loader.classList.add('hidden');
+							setTimeout(function() {
+								loader.classList.add('stopped');
+								body.classList.remove('loading');
+							}, 300);
+						}, 1500);
+					}
+
+					var scroller = document.getElementsByClassName('scroller')[0];
+					window.addEventListener('scroll', function(e) {
+						if (scroller) {
+							scroller.style.width = (window.scrollY / (body.scrollHeight - body.offsetHeight) * 100) + '%';
+						}
+					})
+				});
 			</script>
 	</body>
 </html>
