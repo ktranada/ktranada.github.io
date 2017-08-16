@@ -289,7 +289,9 @@ body {
       left: 10%;
       color: white;
       font-family: lato;
-      font-size: 29px;
+      h1 {
+        font-size: 29px;
+      }
       max-width: 350px;
       font-weight: 200;
       cursor: default;
@@ -729,7 +731,7 @@ body {
 
 @media (max-width: 374px) {
   .content {
-    .content__masthead .content__masthead-body {
+    .content__masthead .content__masthead-body h1 {
       font-size: 27px;
     }
     .content__tech .section__body > div {
@@ -795,7 +797,7 @@ body {
 @media (min-width: 525px) {
 
   .content {
-    .content__masthead .content__masthead-body {
+    .content__masthead .content__masthead-body h1 {
       font-size: 32px;
     }
 

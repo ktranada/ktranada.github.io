@@ -960,10 +960,11 @@ body.loading {
       left: 10%;
       color: white;
       font-family: lato;
-      font-size: 29px;
       max-width: 350px;
       font-weight: 200;
       cursor: default; }
+      .content .content__masthead .content__masthead-body h1 {
+        font-size: 29px; }
       .content .content__masthead .content__masthead-body span {
         color: papayawhip;
         font-weight: bold; }
@@ -1307,7 +1308,7 @@ body.loading {
           color: #DDD; }
 
 @media (max-width: 374px) {
-  .content .content__masthead .content__masthead-body {
+  .content .content__masthead .content__masthead-body h1 {
     font-size: 27px; }
   .content .content__tech .section__body > div {
     -webkit-box-orient: vertical;
@@ -1336,7 +1337,7 @@ body.loading {
     font-size: 30px; } }
 /* Larger than phablet */
 @media (min-width: 525px) {
-  .content .content__masthead .content__masthead-body {
+  .content .content__masthead .content__masthead-body h1 {
     font-size: 32px; }
   .content .below-the-fold .content__background section .wrapper {
     -webkit-box-orient: horizontal;
