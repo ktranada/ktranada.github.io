@@ -960,11 +960,11 @@ body.loading {
       left: 10%;
       color: white;
       font-family: lato;
-      max-width: 350px;
+      max-width: 315px;
       font-weight: 200;
       cursor: default; }
       .content .content__masthead .content__masthead-body h1 {
-        font-size: 29px; }
+        font-size: 26px; }
       .content .content__masthead .content__masthead-body span {
         color: papayawhip;
         font-weight: bold; }
@@ -1334,7 +1334,8 @@ body.loading {
       margin: 20px 25px 60px !important; } }
 @media (min-width: 400px) {
   .content .content__masthead .content__masthead-body {
-    font-size: 30px; } }
+    font-size: 29px;
+    max-width: 350px; } }
 /* Larger than phablet */
 @media (min-width: 525px) {
   .content .content__masthead .content__masthead-body h1 {

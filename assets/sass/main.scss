@@ -290,9 +290,9 @@ body {
       color: white;
       font-family: lato;
       h1 {
-        font-size: 29px;
+        font-size: 26px;
       }
-      max-width: 350px;
+      max-width: 315px;
       font-weight: 200;
       cursor: default;
       span {
@@ -786,7 +786,8 @@ body {
   }
   .content {
     .content__masthead .content__masthead-body {
-      font-size: 30px;
+      font-size: 29px;
+      max-width: 350px;
     }
   }
 }
