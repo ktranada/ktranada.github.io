@@ -975,10 +975,9 @@ body.loading {
       height: 30px;
       width: 15px;
       border: 2px solid palevioletred;
-      position: relative;
-      -webkit-transform: translate(50vw, 90vh);
-      transform: translate(50vw, 90vh);
-      will-change: transform;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
       border-radius: 10px;
       text-align: center; }
       .content .content__masthead .mouse .mouse__scroller {
