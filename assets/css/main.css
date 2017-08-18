@@ -964,7 +964,8 @@ body.loading {
       font-weight: 200;
       cursor: default; }
       .content .content__masthead .content__masthead-body h1 {
-        font-size: 26px; }
+        font-size: 26px;
+        font-weight: normal; }
       .content .content__masthead .content__masthead-body span {
         color: papayawhip;
         font-weight: bold; }
