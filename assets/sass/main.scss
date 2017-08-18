@@ -176,16 +176,18 @@ body {
     background: black;
     height: 100%;
     width: 50%;
-    will-change: transform;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    -webkit-transition: left .6s .6s, right .6s .6s;
+    transition: left .6s .6s, right .6s .6s;
+    // will-change: transform;
+    // -webkit-transform: translateZ(0);
+    //         transform: translateZ(0);
     &:first-of-type {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+      // -webkit-transform: translateX(0);
+      //         transform: translateX(0);
+      left: 0;
     }
     &:nth-of-type(2) {
-      -webkit-transform: translateX(50vw);
-              transform: translateX(50vw);
+      right: 0;
     }
   }
   &:not(.stopped) {
@@ -234,12 +236,10 @@ body {
     }
     > div {
       &:first-of-type {
-        -webkit-animation: loader-left .6s .6s;
-                animation: loader-left .6s .6s;
+          left: -50%;
       }
       &:nth-of-type(2) {
-        -webkit-animation: loader-right .6s .6s;
-                animation: loader-right .6s .6s;
+        right: -50%;
       }
     }
   }
@@ -833,8 +833,11 @@ body {
 @media (min-width: 525px) {
 
   .content {
-    .content__masthead .content__masthead-body h1 {
-      font-size: 32px;
+    .content__masthead .content__masthead-body {
+      max-width: 320px;
+      h1 {
+        font-size: 32px;
+      }
     }
 
     .below-the-fold .content__background section {
