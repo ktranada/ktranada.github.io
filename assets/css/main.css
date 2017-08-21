@@ -1474,8 +1474,8 @@ body.loading {
     -ms-flex-direction: row;
     flex-direction: row; }
     .content .below-the-fold .content__contact .wrapper::before {
-      height: 569px;
-      top: -569px; } }
+      height: 452px;
+      top: -452px; } }
 /* Larger than Desktop HD */
 
 /*# sourceMappingURL=main.css.map */
