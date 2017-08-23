@@ -1,0 +1,54 @@
+
+@import 'normalize';
+@import 'device-mockups';
+@import 'mixins';
+@import 'main.scss';
+@import 'projects';
+@import 'contact';
+@import 'media';
+
+
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  background: #222;
+}
+
+::-moz-selection {
+  background: papayawhip;
+  color: black;
+}
+
+::selection {
+  background: papayawhip;
+  color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+
+p {
+margin: 2px 0;
+letter-spacing: .8px;
+}
+
+body {
+  &.loading {
+    overflow: hidden;
+    .content {
+      overflow-y: hidden;
+    }
+  }
+}
