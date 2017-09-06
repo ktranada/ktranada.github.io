@@ -1461,8 +1461,8 @@ h2, h3 {
     -ms-flex-direction: row;
     flex-direction: row; }
     .content .below-the-fold .content__contact .wrapper::before {
-      height: 850px;
-      top: -850px;
+      height: 826px;
+      top: -826px;
       right: 0; } }
 /* Larger than Desktop HD */
 html {
